@@ -24,7 +24,7 @@ console.log(myFunction([1, 2, 3, 4, 5], 3));
 
 ```javascript
 function myFunction(a, b) {
-    return a===b ? true : false;    #######or just a===b;
+    return a===b;
 }
 console.log(myFunction(2, 3));
 ```
