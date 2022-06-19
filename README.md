@@ -6,11 +6,12 @@
 </div>
 
 ##### 1. Write a function that takes an array `(a)` and a value `(n)` as argument Return the `nth` element of `'a'`
+
 ```javascript
-function myFunction(a,n){
-//code
+function myFunction(a, n) {
+  //code
 }
-myFunction([1, 2, 3, 4, 5], 3)
+myFunction([1, 2, 3, 4, 5], 3);
 ```
 
 <details><summary><b>Solution</b></summary>
@@ -27,18 +28,19 @@ console.log(myFunction([1, 2, 3, 4, 5], 3));
 ---
 
 ##### 2. Write a function that takes two values, say `a` and `b`, as arguments. Return `true` if the two values are equal and of the same type
+
 ```javascript
-function myFunction(a,b){
-//code
+function myFunction(a, b) {
+  //code
 }
-myFunction(2, 3)
+myFunction(2, 3);
 ```
 
 <details><summary><b>Solution</b></summary>
 
 ```javascript
 function myFunction(a, b) {
-    return a===b;
+  return a === b;
 }
 console.log(myFunction(2, 3));
 ```
