@@ -6,13 +6,27 @@
 </div>
 
 ##### 1. Write a function that takes an array (a) and a value (n) as argument Return the nth element of 'a'
+
 <details><summary><b>Solution</b></summary>
 
 ```javascript
-function sayHi() {
-  var name = "Lydia";
-  let age = 21;
+function myFunction(a, n) {
+  return a[n - 1];
 }
-sayHi();
+console.log(myFunction([1, 2, 3, 4, 5], 3));
 ```
+
+</details>
+
+##### 2. Write a function that takes two values, say a and b, as arguments. Return true if the two values are equal and of the same type
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a, b) {
+    return a===b ? true : false;    #######or just a===b;
+}
+console.log(myFunction(2, 3));
+```
+
 </details>
