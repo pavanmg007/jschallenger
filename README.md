@@ -46,3 +46,25 @@ console.log(myFunction(2, 3));
 ```
 
 </details>
+
+---
+
+##### 3. Write a function that takes an array `(a)` as argument. Return the `number` of elements in `a`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction([2, 3, 4, 5]);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.length;
+}
+console.log(myFunction([1, 2, 2, 4]));
+```
+
+</details>
