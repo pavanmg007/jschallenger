@@ -68,3 +68,24 @@ console.log(myFunction([1, 2, 2, 4]));
 ```
 
 </details>
+
+---
+##### 4. Write a function that a string `(a)` as argument Create an `object` that has a property with key `'key'` and a value of `(a)` Return the `object`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction('z');
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return {key:a};
+}
+console.log(myFunction('z'));
+```
+
+</details>
