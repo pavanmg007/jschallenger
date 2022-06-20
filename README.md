@@ -266,3 +266,91 @@ console.log(myFunction([1, 2, 3, 4, 5, 6]));
 ```
 
 </details>
+
+---
+
+##### 13. Write a function that takes an array `(a)` as argument, Extract the `last 3` elements of `a`, Return the resulting `array`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction([1, 2, 3, 4, 5, 6]);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.slice(-3);
+}
+console.log(myFunction([1, 2, 3, 4, 5, 6]));
+```
+
+</details>
+
+---
+
+##### 14. Write a function that takes a string `(a)` as argument, Remove the `last 3 characters` of `a`, Return the `result`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction("javascript");
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.slice(0, -3);
+}
+console.log(myFunction("javascript"));
+```
+
+</details>
+
+---
+
+##### 15. Write a function that takes two numbers `(a and b)` as argument, `Sum` a and b, Return the `result`
+
+```javascript
+function myFunction(a, b) {
+  //code
+}
+myFunction(1, 2);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a, b) {
+  return a + b;
+}
+console.log(myFunction(1, 2));
+```
+
+</details>
+
+---
+
+##### 16. Write a function that takes two numbers `(a and b)` as argument, Return ` b`` percent ` of `a`
+
+```javascript
+function myFunction(a, b) {
+  //code
+}
+myFunction(20, 40);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a, b) {
+  return (b / 100) * a;
+}
+console.log(myFunction(20, 40));
+```
+
+</details>
