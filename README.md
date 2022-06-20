@@ -215,3 +215,24 @@ console.log(myFunction(['b','c','f','e','d','a']));
 ```
 
 </details>
+
+---
+##### 11. Write a function that takes a string `(a)` and a number `(n)` as argument. Return the `nth` character of `'a'`
+
+```javascript
+function myFunction(a,n) {
+  //code
+}
+myFunction('javascript', 5);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a,n) {
+  return a.charAt(n-1); //also a[n-1]
+}
+console.log(myFunction('javascript', 5));
+```
+
+</details>
