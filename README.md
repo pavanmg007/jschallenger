@@ -194,3 +194,24 @@ console.log(myFunction([1,2,3,4,5]));
 ```
 
 </details>
+
+---
+##### 10. Write a function that takes an `array` of `strings` as argument, `Sort` the `array elements` `alphabetically`, Return the `result`
+
+```javascript
+function myFunction(arr) {
+  //code
+}
+myFunction(['hello','world','learning','js','is','fun']);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(arr) {
+  return arr.sort();
+}
+console.log(myFunction(['b','c','f','e','d','a']));
+```
+
+</details>
