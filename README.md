@@ -125,9 +125,51 @@ myFunction('string');
 
 ```javascript
 function myFunction(a) {
-  return str.slice(0, a.length/2);
+  return a.slice(0, a.length/2);
 }
 console.log(myFunction('string'));
+```
+
+</details>
+
+---
+##### 7. Write a function that takes a string `(a)` as argument, Get the `first 3` characters of a Return the `result`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction('string');
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.slice(0, 3);
+}
+console.log(myFunction('string'));
+```
+
+</details>
+
+---
+##### 8. Write a function that takes an array `(a)` as argument, Extract the `first 3` elements of a Return the resulting `array`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction([1,2,3,4,5]);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.slice(0, 3);
+}
+console.log(myFunction([1,2,3,4,5]));
 ```
 
 </details>
