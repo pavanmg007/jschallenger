@@ -382,7 +382,7 @@ console.log(myFunction("hello world"));
 ##### 18. Write a function that takes a `Set` and a `value` as arguments, Check if the `value` is present in the `Set`
 
 ```javascript
-function myFunction(set,val) {
+function myFunction(set, val) {
   //code
 }
 myFunction(new Set([1, 2, 3]), 2);
@@ -391,10 +391,32 @@ myFunction(new Set([1, 2, 3]), 2);
 <details><summary><b>Solution</b></summary>
 
 ```javascript
-function myFunction(set,val) {
+function myFunction(set, val) {
   return set.has(val);
 }
 console.log(myFunction(new Set([1, 2, 3]), 2));
+```
+
+</details>
+
+---
+
+##### 19. Write a function that takes two strings `(a and b)` as arguments, Create an `object` that has a property with `key 'a'` and a `value of 'b'`, Return the `object`
+
+```javascript
+function myFunction(a, b) {
+  //code
+}
+myFunction(("name", "pavan"));
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a, b) {
+  return { [a]: b };
+}
+console.log(myFunction("name", "pavan"));
 ```
 
 </details>
