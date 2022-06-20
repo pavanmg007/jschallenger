@@ -89,3 +89,24 @@ console.log(myFunction('z'));
 ```
 
 </details>
+
+---
+##### 5. Write a function that takes a `string` as argument. Extract the `last 3` characters from the string. Return the result
+
+```javascript
+function myFunction(str) {
+  //code
+}
+myFunction('string');
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(str) {
+  return str.slice(-3);
+}
+console.log(myFunction('string'));
+```
+
+</details>
