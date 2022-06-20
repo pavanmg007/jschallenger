@@ -335,7 +335,7 @@ console.log(myFunction(1, 2));
 
 ---
 
-##### 16. Write a function that takes two numbers `(a and b)` as argument, Return ` b`` percent ` of `a`
+##### 16. Write a function that takes two numbers `(a and b)` as argument, Return ` b` percent of `a`
 
 ```javascript
 function myFunction(a, b) {
@@ -351,6 +351,28 @@ function myFunction(a, b) {
   return (b / 100) * a;
 }
 console.log(myFunction(20, 40));
+```
+
+</details>
+
+---
+
+##### 17. Write a function that takes a string `(a)` as argument, Remove the `first 3` characters of `a`, Return the `result`
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction("hello");
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return a.slice(3);
+}
+console.log(myFunction("hello world"));
 ```
 
 </details>
