@@ -247,7 +247,7 @@ console.log(myFunction("javascript", 5));
 
 ---
 
-##### Write a function that takes an array `(a)` as argument, Remove the `first 3` elements of `'a'`, Return the result
+##### 12. Write a function that takes an array `(a)` as argument, Remove the `first 3` elements of `'a'`, Return the result
 
 ```javascript
 function myFunction(a) {
