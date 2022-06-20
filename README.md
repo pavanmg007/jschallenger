@@ -376,3 +376,25 @@ console.log(myFunction("hello world"));
 ```
 
 </details>
+
+---
+
+##### 18. Write a function that takes a `Set` and a `value` as arguments, Check if the `value` is present in the `Set`
+
+```javascript
+function myFunction(set,val) {
+  //code
+}
+myFunction(new Set([1, 2, 3]), 2);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(set,val) {
+  return set.has(val);
+}
+console.log(myFunction(new Set([1, 2, 3]), 2));
+```
+
+</details>
