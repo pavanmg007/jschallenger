@@ -173,3 +173,24 @@ console.log(myFunction([1,2,3,4,5]));
 ```
 
 </details>
+
+---
+##### 9. Write a function that takes `'a'` value as argument, Return the `type` of the value
+
+```javascript
+function myFunction(a) {
+  //code
+}
+myFunction([1,2,3,4,5]);
+```
+
+<details><summary><b>Solution</b></summary>
+
+```javascript
+function myFunction(a) {
+  return typeof a;
+}
+console.log(myFunction([1,2,3,4,5]));
+```
+
+</details>
